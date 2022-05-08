@@ -1,0 +1,25 @@
+# vscode
+.vscode
+force.json
+
+# vim
+*.swp
+*.rdb
+
+# log
+*.log
+
+# mac
+.DS_Store
+
+# gogland
+.idea
+
+# paw
+*.paw
+
+# cloud dev automatic generated file
+.devspace
+/cloud-dev/devspace/**/build
+/cloud-dev/devspace/**/values.yaml
+/cloud-dev/helm/output
