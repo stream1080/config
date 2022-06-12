@@ -1,8 +1,6 @@
 # go env
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go:$HOME/work
-#export PATH=$GOPATH/bin:$PATH
-#export GOPATH=/skylike/go
 export GOBIN=/Users/skylike/go/bin
 export PATH=/Users/skylike/go/bin:$PATH
 
@@ -20,5 +18,5 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-@
-"~/.bash_profile" 24L, 752C
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+. "$HOME/.cargo/env"
