@@ -2,8 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/skylike/.oh-my-zsh"
-export JAVA_HOME=$(/usr/libexec/java_home)
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -77,7 +76,14 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-source ~/.bash_profile
+## maven
+export MAVEN_HOME=/usr/local/apache-maven-3.8.4
+export PATH=${PATH}:${MAVEN_HOME}/bin
+
+## gradle
+export GRADLE_HOME=/usr/local/gradle-4.6
+export GRADLE_USER_HOME=/Users/liangjunxi/.m2/repository
+export PATH=$GRADLE_HOME/bin:$PATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -102,9 +108,3 @@ source ~/.bash_profile
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# jdk8
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home
-export JAVA_HOME=$(/usr/libexec/java_home)
-export CLASSPATH=$JAVA_HOME/lib
-export PATH=$JAVA_HOME/bin:$PATH
