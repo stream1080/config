@@ -1,0 +1,47 @@
+## mac install config
+
+### MAC 应用清单
+
+- IntellJ IDEA 2020.3.3
+- Sequel ace (MySQL)
+- Robo 3T (Mongon)
+- Another Redis Desktop Manager
+- iterm
+- Typora
+- VS Code
+- Chrome
+- Postman
+- Docker
+
+### 终端 iTerm
+
+#### 前置
+```shell
+cat /etc/shells  # 查看当前 shell
+chsh -s /bin/zsh # 切换成 zsh
+```
+
+#### 安装 iterm2
+1. brew 安装
+```shell
+brew install iterm2
+```
+2. 下载安装
+```shell
+https://www.iterm2.com/downloads.html
+```
+
+#### 安装 oh-my-zsh
+
+```shell
+国外：sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+国内：sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)"
+```
+
+#### 修改配置文件
+
+```shell
+cp ohmyzsh/templates/zshrc.zsh-template ~/.zshrc
+source ~/.zshrc
+```
+
