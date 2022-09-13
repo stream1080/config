@@ -85,6 +85,11 @@ export GRADLE_HOME=/usr/local/gradle-4.6
 export GRADLE_USER_HOME=/Users/liangjunxi/.m2/repository
 export PATH=$GRADLE_HOME/bin:$PATH
 
+## golang
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOROOT/bin:$PATH
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
