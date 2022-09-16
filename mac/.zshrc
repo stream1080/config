@@ -90,6 +90,25 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOROOT/bin:$PATH
 
+# k8s
+export PATH=$HOME/.kube:$PATH
+export COLUMBUS_ENV=daily
+alias k='kubectl '
+alias ke='function _func() { kubectl exec -it $1 bash; }; _func '
+alias kg='kubectl get po'
+alias kd='kubectl delete po'
+alias kl='kubectl logs '
+alias kx='kubectx'
+alias kn='kubens'
+alias kdy='k8.sh daily '
+alias kdy1='k8.sh daily1 '
+alias kt1='k8.sh test1 '
+alias kt2='k8.sh test2 '
+alias kt3='k8.sh test3 '
+alias kt4='k8.sh test4 '
+alias krd='k8.sh rddaily '
+alias krt='k8.sh rdtest '
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
