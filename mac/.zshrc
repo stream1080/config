@@ -82,7 +82,7 @@ export PATH=${PATH}:${MAVEN_HOME}/bin
 
 ## gradle
 export GRADLE_HOME=/usr/local/gradle-4.6
-export GRADLE_USER_HOME=/Users/liangjunxi/.m2/repository
+export GRADLE_USER_HOME=$HOME/.m2/repository
 export PATH=$GRADLE_HOME/bin:$PATH
 
 ## golang
