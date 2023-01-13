@@ -14,6 +14,13 @@
 - Docker
 - [keka(解压缩软件1.1.30)](https://github.com/aonez/Keka)
 
+### brew 安装
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
 ### 终端 iTerm
 
 #### 前置
