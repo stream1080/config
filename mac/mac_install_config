@@ -14,6 +14,12 @@
 - Docker
 - [keka(解压缩软件1.1.30)](https://github.com/aonez/Keka)
 
+
+### jdk8 下载
+```shell
+https://repo.huaweicloud.com/java/jdk/8u151-b12/
+```
+
 ### brew 安装
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
