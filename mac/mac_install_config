@@ -45,4 +45,9 @@ https://www.iterm2.com/downloads.html
 cp ohmyzsh/templates/zshrc.zsh-template ~/.zshrc
 source ~/.zshrc
 ```
-
+#### 目录报错
+打开 iTerm 报目录权限错误
+```shell
+chmod 755 /usr/local/share/zsh
+chmod 755 /usr/local/share/zsh/site-functions
+```
