@@ -109,6 +109,10 @@ alias kt4='k8.sh test4 '
 alias krd='k8.sh rddaily '
 alias krt='k8.sh rdtest '
 
+# jumpbox
+export PATH=$HOME/.ssh:$PATH
+alias j='jumpbox.sh'
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
